@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_HI_TECHDataSet5" targetNamespace="http://tempuri.org/_HI_TECHDataSet5.xsd" xmlns:mstns="http://tempuri.org/_HI_TECHDataSet5.xsd" xmlns="http://tempuri.org/_HI_TECHDataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="HI_TECHConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HI_TECHConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Hi_Tech.Properties.Settings.GlobalReference.Default.HI_TECHConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_HI_TECHDataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="_HI_TECHDataSet5" msprop:Generator_UserDSName="_HI_TECHDataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Sup_det" msprop:Generator_TableClassName="Sup_detDataTable" msprop:Generator_TableVarName="tableSup_det" msprop:Generator_RowChangedName="Sup_detRowChanged" msprop:Generator_TablePropName="Sup_det" msprop:Generator_RowDeletingName="Sup_detRowDeleting" msprop:Generator_RowChangingName="Sup_detRowChanging" msprop:Generator_RowEvHandlerName="Sup_detRowChangeEventHandler" msprop:Generator_RowDeletedName="Sup_detRowDeleted" msprop:Generator_RowClassName="Sup_detRow" msprop:Generator_UserTableName="Sup_det" msprop:Generator_RowEvArgName="Sup_detRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

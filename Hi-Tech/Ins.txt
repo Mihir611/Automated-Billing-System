@@ -1,0 +1,4 @@
+﻿At first when u click on Ok button you will get a form named Restore or something like that 
+There you will find two texts like this 
+ 1.Server name 
+ 2.Database name
